@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>ThreatNet Dashboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="topbar">
+      <div class="brand">
+        <img src="logo.jpeg" alt="ThreatNet Logo" class="logo-img">
+      </div>
+
+      <nav aria-label="Primary navigation">
+        <ul class="navlinks">
+          <li><a href="#" title="Link Not Implemented">Dashboard</a></li>
+          <li><a href="#" title="Link Not Implemented">Report IOC</a></li>
+          <li><a href="#" title="Link Not Implemented">Intelligence Search</a></li>
+          <li><a href="#" title="Link Not Implemented">Attack Groups</a></li>
+        </ul>
+      </nav>
+
+      <div class="right">
+        <div class="userbox">
+          <div class="role">Analyst</div>
+          <div class="team">SOC Team A</div>
+        </div>
+        <div aria-hidden="true" class="status-dot">●</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="main-header">
+    <h1>Threat Intelligence Dashboard</h1>
+    <p>Real-time overview of the current threat landscape.</p>
+  </section>
+
+  <section class="cards">
+    <div class="card blue-card">
+      <div class="card-header">
+        <h3>Active Threats</h3>
+        <div class="icon-box">⚡</div>
+      </div>
+      <div class="number">3</div>
+      <div class="note">+12% from last week</div>
+    </div>
+
+    <div class="card red-card">
+      <div class="card-header">
+        <h3>Critical Incidents</h3>
+        <div class="icon-box">⚠️</div>
+      </div>
+      <div class="number">2</div>
+      <div class="note">Requires attention</div>
+    </div>
+
+    <div class="card purple-card">
+      <div class="card-header">
+        <h3>Total Reports</h3>
+        <div class="icon-box">📄</div>
+      </div>
+      <div class="number">5</div>
+      <div class="note">Total stored IOCs</div>
+    </div>
+
+    <div class="card orange-card">
+      <div class="card-header">
+        <h3>Attacker Groups</h3>
+        <div class="icon-box">👥</div>
+      </div>
+      <div class="number">5</div>
+      <div class="note">Active campaigns</div>
+    </div>
+  </section>
+
+  <section class="map-card">
+    <div class="map-header">
+      <h2>Global Threat Heatmap</h2>
+    </div>
+    <div class="map-body"></div>
+  </section>
+
+  <section class="charts-row">
+    <div class="panel">
+      <h2>Attack Vectors Distribution</h2>
+      
+      <div class="vector-item">
+        <div class="vector-info"><span>Phishing</span><span>20%</span></div>
+        <div class="vector-bar"><div class="v-fill phish-bg"></div></div>
+      </div>
+
+      <div class="vector-item">
+        <div class="vector-info"><span>Malware</span><span>20%</span></div>
+        <div class="vector-bar"><div class="v-fill mal-bg"></div></div>
+      </div>
+
+      <div class="vector-item">
+        <div class="vector-info"><span>DDoS</span><span>20%</span></div>
+        <div class="vector-bar"><div class="v-fill ddos-bg"></div></div>
+      </div>
+
+      <div class="vector-item">
+        <div class="vector-info"><span>Ransomware</span><span>20%</span></div>
+        <div class="vector-bar"><div class="v-fill ran-bg"></div></div>
+      </div>
+
+      <div class="vector-item">
+        <div class="vector-info"><span>Social Engineering</span><span>20%</span></div>
+        <div class="vector-bar"><div class="v-fill soc-bg"></div></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Threat Severity Breakdown</h2>
+      <div class="sev-item">
+        <div class="sev-top"><span>High</span><span>1</span></div>
+        <div class="bar"><div class="fill high-fill"></div></div>
+      </div>
+      <div class="sev-item">
+        <div class="sev-top"><span>Critical</span><span>2</span></div>
+        <div class="bar"><div class="fill critical-fill"></div></div>
+      </div>
+      <div class="sev-item">
+        <div class="sev-top"><span>Medium</span><span>1</span></div>
+        <div class="bar"><div class="fill medium-fill"></div></div>
+      </div>
+      <div class="sev-item">
+        <div class="sev-top"><span>Low</span><span>1</span></div>
+        <div class="bar"><div class="fill low-fill"></div></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="brand-name">ThreatNet</span>
+        <span class="footer-year">© 2025</span>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#" title="Link Not Implemented">Privacy Policy</a></li>
+        <li><a href="#" title="Link Not Implemented">Contact Support</a></li>
+      </ul>
+    </div>
+    <hr class="footer-line" />
+    <div class="footer-bottom">
+      <div>Secure CTI Platform • TLP:AMBER</div>
+      <div>Designed for SOC Units</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
