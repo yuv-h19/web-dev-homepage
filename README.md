@@ -14,6 +14,7 @@ You can view the homepage here:
 * **index.css** – Custom styling including CSS Grid for the dashboard cards, Flexbox for the header and footer, and media queries for mobile responsiveness.
 * **logo.jpeg** – The platform branding image.
 * **norse-banks-cyberthreats.gif** – An animated global threat heatmap integrated into the dashboard.
+* **favicon.ico** – Custom browser icon for the ThreatNet platform to enhance professional branding.
 
 ## 🎯 Project Goals
 
