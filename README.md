@@ -1,7 +1,7 @@
 # Web Development Course - Project No. 3: Homepage
 
 This repository contains the homepage assignment for the Web Development course. 
-The project demonstrates a professional **Threat Intelligence Dashboard** (ThreatNet) using advanced CSS layouts and responsive design principles.
+The project demonstrates a professional **Threat Intelligence Dashboard** (ThreatNet Project Homepage) using advanced CSS layouts and responsive design principles.
 
 ## 🌐 Live Preview
 
